@@ -10,6 +10,8 @@ Goto Safari > Develop > Developer Settings > Allow remote Automation (check this
 
 ## Usage
 
+```bash
+
 -interval_wait_time int
 Time to wait between taking screenshots of URLs (in seconds) (default 1)
 -load_wait_time int
@@ -18,6 +20,7 @@ Time to wait for a URL to load before taking a screenshot (in seconds) (default 
 The output directory to save screenshots (default "screenshots")
 -urls_file string
 Path to the file containing the list of URLs (default "urls.txt")
+```
 
 ### Example usage
 
