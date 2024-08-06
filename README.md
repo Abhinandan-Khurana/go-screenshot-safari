@@ -1,12 +1,14 @@
 # Endpoint_screenshot_safari_browser
 
-## Description:
+## Description
 
-### Pre-requisites:
+This project provides a straightforward implementation of Selenium (in GoLang) with the Safari browser for capturing screenshots of web pages. It addresses the limitations posed by certain websites that require specific browsers, such as Chrome (version 96.0 or higher), Edge, or Safari, to function properly.
+
+### Pre-requisites
 
 Goto Safari > Develop > Developer Settings > Allow remote Automation (check this option)
 
-## Usage:
+## Usage
 
 -interval_wait_time int
 Time to wait between taking screenshots of URLs (in seconds) (default 1)
@@ -17,7 +19,7 @@ The output directory to save screenshots (default "screenshots")
 -urls_file string
 Path to the file containing the list of URLs (default "urls.txt")
 
-### Example usage:
+### Example usage
 
 ```bash
 go run . -urls_file urls.txt -output_dir screenshots -load_wait_time 2 -interval_wait_time 1
