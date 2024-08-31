@@ -1,4 +1,4 @@
-# Endpoint_screenshot_safari_browser
+# go-screenshot-safari
 
 ## Description
 
