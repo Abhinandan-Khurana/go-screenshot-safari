@@ -7,7 +7,7 @@ This project provides a straightforward implementation of Selenium (in GoLang) w
 ### Installation
 
 ```bash
-go install -v github.com/Abhinandan-Khurana/go-screenshot-safari@latest
+go install -v github.com/Abhinandan-Khurana/go-screenshot-safari@v1.0.1
 ```
 
 ### Pre-requisites
