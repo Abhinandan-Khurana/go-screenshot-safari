@@ -4,6 +4,12 @@
 
 This project provides a straightforward implementation of Selenium (in GoLang) with the Safari browser for capturing screenshots of web pages. It addresses the limitations posed by certain websites that require specific browsers, such as Chrome (version 96.0 or higher), Edge, or Safari, to function properly.
 
+### Installation
+
+```bash
+go install -v github.com/Abhinandan-Khurana/go-screenshot-safari@latest
+```
+
 ### Pre-requisites
 
 Goto Safari > Develop > Developer Settings > Allow remote Automation (check this option)
