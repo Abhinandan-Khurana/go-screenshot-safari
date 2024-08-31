@@ -1,4 +1,4 @@
-module github.com/Abhinandan-Khurana/Endpoint_screenshot_safari_browser
+module github.com/Abhinandan-Khurana/go-screenshot-safari
 
 go 1.22.0
 
