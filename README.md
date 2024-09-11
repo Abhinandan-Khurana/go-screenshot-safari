@@ -14,6 +14,8 @@ go install -v github.com/Abhinandan-Khurana/go-screenshot-safari@v1.0.1
 
 Goto Safari > Develop > Developer Settings > Allow remote Automation (check this option)
 
+And make sure to run [selenium server](https://selenium-release.storage.googleapis.com/index.html?path=3.5/) --> `java -jar selenium-server-standalone-3.5.3.jar`
+
 ## Usage
 
 ```bash
