@@ -33,6 +33,9 @@ func sanitizeFilename(url string) string {
 }
 
 func readURLs(filePath string) ([]string, error) {
+	if strings.Contains(filePath, "../") || strings.Contains(filePath, "..\\") {
+		return nil, fmt.Errorf("Invalid file path")
+	}
 	content, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		return nil, err
